@@ -19,10 +19,17 @@ final class ARTM_CountriesTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testUrlService() throws {
+    func testUrlServiceOk() throws {
         guard let urlService: UrlService = try? AppContainer.shared.resolve() else { return }
         let url = urlService.getCountriesApiUrl(version: "4.3")
-        XCTAssertEqual(url, "https://restcountries.com/v4.3/all", "Url generation error")
+        XCTAssertEqual(url, "https://restcountries.com/v4.3/all", "Url generation OK error")
+    }
+    
+    
+    func testUrlServiceKo() throws {
+        guard let urlService: UrlService = try? AppContainer.shared.resolve() else { return }
+        let url = urlService.getCountriesApiUrl(version: "4.5")
+        XCTAssertNotEqual(url, "https://restcountries.com/v4.3/all", "Url generation KO error")
     }
 }
 

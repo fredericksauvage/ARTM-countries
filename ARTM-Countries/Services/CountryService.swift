@@ -18,7 +18,7 @@ enum CountryError: Error {
     case invalidResponse
     case invalidUrlService
 }
-class CountryServiceImpl: 
+class CountryServiceImpl:
     CountryService {
     var urlService: UrlService?
     
@@ -27,7 +27,7 @@ class CountryServiceImpl:
     }
     
     func fetchCountries(completionHandler: @escaping @Sendable (Result<[CountryDetail], Error>) -> Void) -> DataRequest? {
-        guard let urlService = urlService else { 
+        guard let urlService = urlService else {
             completionHandler(.failure(CountryError.invalidUrlService))
             return nil
         }
@@ -38,7 +38,7 @@ class CountryServiceImpl:
             case .failure(let error):
                 completionHandler(.failure(error))
             }
-                
+            
         }
     }
     
