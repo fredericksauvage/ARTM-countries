@@ -97,7 +97,7 @@ class CountriesListViewController: UITableViewController {
             return cell
         }
         let cell = tableView.dequeueReusableCell(withIdentifier: "CountryCell", for: indexPath)
-        cell.textLabel?.text = countries?[indexPath.row].name?.official ?? ""
+        cell.textLabel?.text = countries?[indexPath.row].name?.common ?? ""
         cell.textLabel?.font = UIFont.italicSystemFont(ofSize: 15)
         return cell
     }

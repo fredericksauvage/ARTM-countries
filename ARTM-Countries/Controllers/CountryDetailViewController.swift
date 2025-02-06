@@ -123,7 +123,7 @@ class CountryDetailViewController: UIViewController {
     }
     
     private func loadData() {
-        name.text = country?.name?.official
+        name.text = country?.name?.common
         name.sizeToFit()
         continent.text = "Continent(s): " + (country?.continents?.compactMap { $0 }.joined(separator: ", ") ?? "")
         population.text = "Pouplation: \(country?.population ?? 0)"
