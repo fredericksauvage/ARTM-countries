@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B60BF6B1-C2D3-4C97-BB52-1B23DFF593AE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3597DE77-F7BF-4FF5-BE55-47D0CD7BC391"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Dip/Sources/RuntimeArguments.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "register(_:type:tag:factory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03BC6B6A-29A6-4333-BE5B-6884511DE074"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Dip/Sources/RuntimeArguments.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "register(_:type:tag:factory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03BC6B6A-29A6-4333-BE5B-6884511DE074 - a277302d18fd97e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dip.DependencyContainer.register&lt;&#x3c4;_0_0&gt;(_: Dip.ComponentScope, type: &#x3c4;_0_0.Type, tag: Swift.Optional&lt;Dip.DependencyTagConvertible&gt;, factory: (()) throws -&gt; &#x3c4;_0_0) -&gt; Dip.Definition&lt;&#x3c4;_0_0, ()&gt;"
+                  moduleName = "Dip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fredericksauvage/Documents/ARTM-COFOMO/ARTM-Countries/Pods/Dip/Sources/RuntimeArguments.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "03BC6B6A-29A6-4333-BE5B-6884511DE074 - 9bee065f11ac3099"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Dip.DefinitionBuilder&lt;&#x3c4;_0_0, ()&gt;) -&gt; () in Dip.DependencyContainer.register&lt;&#x3c4;_0_0&gt;(_: Dip.ComponentScope, type: &#x3c4;_0_0.Type, tag: Swift.Optional&lt;Dip.DependencyTagConvertible&gt;, factory: (()) throws -&gt; &#x3c4;_0_0) -&gt; Dip.Definition&lt;&#x3c4;_0_0, ()&gt;"
+                  moduleName = "Dip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fredericksauvage/Documents/ARTM-COFOMO/ARTM-Countries/Pods/Dip/Sources/RuntimeArguments.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "81">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0D80966-6A4C-4383-9671-D38A20E2EE0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Dip/Sources/RuntimeArguments.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "register(_:type:tag:factory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0356ADDD-3694-4505-9272-3E844B111620"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ARTM-Countries/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
