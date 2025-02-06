@@ -16,8 +16,7 @@ Le projet étant simple, j'ai opté pour pour le pattern MVC, mais dans l'absolu
 
 Une gestion basique des erreurs en affichant un message quand l’API échoue est mise en place. Mais, une gestion des erreurs plus centralisées et orientée produit serait pertinente (à voir avec le PO).
 
-🛠 **Améliorations possibles** :
--   Optimiser la gestion des erreurs réseau différemment en vérifiant le code HTTP
+Il serait pertinent d'optimiser la gestion des erreurs réseau différemment en vérifiant le code HTTP
 
 ### **3. Tests unitaires**
 Les tests unitaire UrlService sont implémentés, mais il serait interessant d'implémenter des tests unitaires pour le service CountryService au travers de mocks. Pour cela, un modèle MVVM est requis.
